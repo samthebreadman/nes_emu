@@ -1,0 +1,9 @@
+OBJ = main.c
+CC = gcc
+INCLUDE_PATH = -IC:\MinGW\include\SDL2
+LIBRARY_PATH = -LC:\MinGW\lib
+COMPILER_FLAG = -w
+LINKER_FLAG = -lmingw32 -lSDL2main -lSDL2
+OBJ_NAME = nes_emu
+all : $(OBJ)
+	$(CC) $(OBJ) $(INCLUDE_PATH) $(LIBRARY_PATH) $(COMPILER_FLAG) $(LINKER_FLAG) -o $(OBJ_NAME)
