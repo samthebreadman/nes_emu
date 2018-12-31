@@ -1,5 +1,5 @@
 // NES Emulator
-// An Emulator for the Nintendo Entertainment System
+// An Emulator For The Nintendo Entertainment System
 ////////////////////////////////////////////////////////////////////////////////
 
 #include <stdarg.h>
